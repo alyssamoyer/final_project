@@ -32,4 +32,6 @@ Above is our heatmap of variable correlations and our random forest feature impo
 
 ## Findings
  Overall throughout our models we found that adult mortality, Hiv/Aids, bmi, births per woman, water, schooling were key variables in predicting life expectancy. We expected variables like adult mortality and water to be important variables but were surprised by the social variables like births per woman and schooling.
+ 
+ We’d like to find better methods to optimize and compare models in the future. We are new to machine learning but definitely learned a lot through testing these models.
 
