@@ -17,7 +17,9 @@ Non-Health Variables:
 
 Above is our heatmap of variable correlations and our random forest feature importance (standardized variables).
 
-By far water was the highest correlated and highest ranked feature by our random forest model. This is expected as access to water is critical to human survival. For the rest of the variables we saw that general lifestyle and social variables (births per woman, alcohol) ranked higher in correlation as well as feature importance than economic variables. We felt that the lifestyle variable may not necessarily have a causal relationship with life expectancy but may be related to developed versus developing countries lifestyle. For example developed countries have on average 1.4 births per woman and developing countries have an average 3.1 births per woman. It was interesting even the economic variables directly related to health did not rank high in the random forest feature importance. For example percent expenditure which is spend on health as a percent of GDP was ranked lower than all social variables.
+By far access to water was the highest correlated and highest ranked feature by our random forest model. This is expected as access to water is critical to human survival. For the rest of the variables we saw that general lifestyle and social variables (births per woman, alcohol) ranked higher in correlation as well as feature importance than economic variables. We felt that the lifestyle variable may not necessarily have a causal relationship with life expectancy but may be related to developed versus developing countries lifestyle. For example developed countries have on average 1.4 births per woman and developing countries have an average 3.1 births per woman. It was interesting even the economic variables directly related to health did not rank high in the random forest feature importance. For example percent expenditure which is spend on health as a percent of GDP was ranked lower than all social variables.
+
+Our random forest model score was very high at .91. We tested taking water out to see its effect on our model but the accuracy only dropped to .88.
 
 Health Variables: 
 
