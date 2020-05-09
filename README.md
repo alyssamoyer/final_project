@@ -8,4 +8,8 @@ In our project we wanted to look at different types of variables and their affec
 2015 Life Expectancy by Country:
 ![Dates](images/map_tab.png)
 
-## Data Exploration
+## Trends in the Data 
+
+Non-Health Variables:
+![Dates](images/heatmap.png)
+![Dates](images/features.png)
