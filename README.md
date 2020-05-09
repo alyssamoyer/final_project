@@ -29,6 +29,11 @@ Health Variables:
 Above is our heatmap of variable correlations and our random forest feature importance (standardized variables).
 
 
+For health related variables we expected mortality rates to have a high correlation with life expectancy but found it interesting that hiv/aids deaths during birth (per 1,000 people) had a higher correlation than infant deaths and under 5 deaths.  We also expected that vaccination rates of one-year-olds (Polio, Hepatitis B, and Diphtheria)  would have higher correlations to life expectancy. But when digging into the data we saw that there are large groups of countries that have near 100% vaccination rates but varying life expectancy values. 
+
+Our random forest had a high score of .94. This was expected from the types of variables we used in this model. We were more interested in the importance of each variable and found it interesting that Hiv/aids was a higher ranked factor than adult mortality. For us to use this particular model in predicting we would first take out the variables that had high colinearity or actually overlapped in what they measured for example infant deaths and under 5 deaths. 
+
+
 
 ## Findings
  Overall throughout our models we found that adult mortality, Hiv/Aids, bmi, births per woman, water, schooling were key variables in predicting life expectancy. We expected variables like adult mortality and water to be important variables but were surprised by the social variables like births per woman and schooling.
