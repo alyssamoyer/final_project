@@ -27,3 +27,9 @@ Health Variables:
 ![Dates](images/mortality_features.png)
 
 Above is our heatmap of variable correlations and our random forest feature importance (standardized variables).
+
+
+
+## Findings
+ Overall throughout our models we found that adult mortality, Hiv/Aids, bmi, births per woman, water, schooling were key variables in predicting life expectancy. We expected variables like adult mortality and water to be important variables but were surprised by the social variables like births per woman and schooling.
+
